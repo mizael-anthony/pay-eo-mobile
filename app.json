@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "pay-eo-mobile",
+    "slug": "pay-eo-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "pay-eo-mobile"
+}
