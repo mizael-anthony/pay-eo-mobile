@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-export default function Home() {
+export default function PublicLayout() {
     return <View>
-        <Text> HOME </Text>
+        <Text> PublicLayout </Text>
     </View>
 }

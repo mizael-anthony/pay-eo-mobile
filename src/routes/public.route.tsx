@@ -1,15 +1,15 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Home from '../components/public/home/home.component';
+import PublicLayout from '../components/public/PublicLayout/PublicLayout.component';
 
 const PublicStack = createNativeStackNavigator();
 
 function Public() {
-  return (
-      <PublicStack.Navigator>
-        <PublicStack.Screen name="home" component={Home} />
-      </PublicStack.Navigator>
-  );
+    return (
+        <PublicStack.Navigator>
+            <PublicStack.Screen name="Home" component={PublicLayout} />
+        </PublicStack.Navigator>
+    );
 }
 
 export default Public;

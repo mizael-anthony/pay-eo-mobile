@@ -1,8 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import RouteIndex from './routes/index.route';
 
 export default function Payeo() {
+  return (
+        <RouteIndex/>
+  );
+
   return (
     <View style={styles.container}>
       <Text>Main access of payeo apps</Text>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-export default function Dashboard() {
+export default function Home() {
     return <View>
-        <Text> DashboardScreen </Text>
+        <Text> HomeScreen </Text>
     </View>
 }
